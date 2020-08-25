@@ -1,4 +1,4 @@
-# SilverStripe elemental bootstrap testimonialsection
+# SilverStripe elemental bootstrap spotlight section
 
 [![Build Status](https://travis-ci.com/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection.svg?branch=master)](https://travis-ci.com/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection)
 [![phpstan](https://img.shields.io/badge/PHPStan-enabled-success)](https://github.com/phpstan/phpstan)
@@ -10,7 +10,7 @@ This module is part of a larger collection. See
 [`syntro/silverstripe-elemental-bootstrap-collection`](https://github.com/syntro-opensource/silverstripe-elemental-bootstrap-collection)
 for details.
 
-Provides a simple section displaying testimonials.
+Provides a simple section displaying sections.
 
 ## Requirements
 
