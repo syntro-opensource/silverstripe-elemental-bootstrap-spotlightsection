@@ -22,7 +22,7 @@ use Syntro\SilverStripeElementalBootstrapSpotlightSection\Model\Spotlight;
 class SpotlightSection extends BootstrapSectionBaseElement
 {
 
-    private static $icon = 'font-icon-icon-enlarge';
+    private static $icon = 'elemental-icon-spotlight';
     /**
      * This defines the block name in the CSS
      *

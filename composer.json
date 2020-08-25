@@ -12,7 +12,8 @@
         "silverstripe/framework": "^4.0",
         "silverstripe/admin": "^1.0",
         "dnadesign/silverstripe-elemental": "^4",
-        "syntro/silverstripe-elemental-bootstrap-baseitems": "dev-master"
+        "syntro/silverstripe-elemental-bootstrap-baseitems": "dev-master",
+        "syntro/silverstripe-elemental-icons": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
