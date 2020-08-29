@@ -1,3 +1,15 @@
 de:
-  Syntro\SilverStripeElementalBootstrapAlertSection\Elements\AlertSection:
+  Syntro\SilverStripeElementalBootstrapSpotlightSection\Elements\SpotlightSection:
     BlockType: Spotlight Abschnitt
+    SPOTLIGHTS: Einträge
+    CONTENT: Inhalt
+    SUMMARY:
+      one: 'Ein Eintrag'
+      other: '{count} Einträge'
+  Syntro\SilverStripeElementalBootstrapSpotlightSection\Model\Spotlight:
+    IMAGE: Bild
+    TITLE: Titel
+    SUBTITLE: Untertitel
+    SUMMARY: Zusammenfassung
+    CAPTION: Beschreibung
+    CALLTOACTIONLINK: Call to action Link

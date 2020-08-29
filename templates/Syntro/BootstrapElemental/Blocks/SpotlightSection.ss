@@ -18,6 +18,13 @@
                     <lead><strong>$SubTitle</strong></lead>
                 <% end_if %>
             <p class="mt-4 px-3"><i>$Content</i></p>
+            <% if CTALink %>
+                <% with CTALink %>
+                    <a {$IDAttr} class="mx-1 text-$Up.LinkColor" href="{$LinkURL}"{$TargetAttr}>
+                        {$Title}
+                    </a>
+                <% end_with %>
+            <% end_if %>
             </div>
         <% end_loop %>
     </div>

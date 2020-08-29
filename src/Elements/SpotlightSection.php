@@ -104,11 +104,28 @@ class SpotlightSection extends BootstrapSectionBaseElement
     ];
 
     /**
+     * fieldLabels - apply labels
+     *
+     * @param  boolean $includerelations = true
+     * @return array
+     */
+    public function fieldLabels($includerelations = true)
+    {
+        $labels = parent::fieldLabels($includerelations);
+        $labels['Spotlights'] = _t(__CLASS__ . '.SPOTLIGHTS', 'Items');
+        $labels['Content'] = _t(__CLASS__ . '.CONTENT', 'Content');
+        return $labels;
+    }
+
+
+    /**
      * @return FieldList
      */
     public function getCMSFields()
     {
         $this->beforeUpdateCMSFields(function ($fields) {
+
+            $fields->dataFieldByName('Content')->setTitle($this->fieldLabel('Content'));
 
             if ($this->ID) {
                 /** @var GridField $spotlights */
@@ -135,7 +152,15 @@ class SpotlightSection extends BootstrapSectionBaseElement
      */
     public function getSummary()
     {
-        return DBField::create_field('HTMLText', $this->Content)->Summary(20);
+        return sprintf(
+            '%s: "%s"',
+            _t(
+                __CLASS__ . '.SUMMARY',
+                'one item|{count} items',
+                ['count' => $this->Spotlights()->count()]
+            ),
+            implode('", "', $this->Spotlights()->map('Title')->keys())
+        );
     }
 
     /**
