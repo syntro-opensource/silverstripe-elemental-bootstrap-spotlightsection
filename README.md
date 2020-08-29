@@ -10,7 +10,9 @@ This module is part of a larger collection. See
 [`syntro/silverstripe-elemental-bootstrap-collection`](https://github.com/syntro-opensource/silverstripe-elemental-bootstrap-collection)
 for details.
 
-Provides a simple section displaying sections.
+Provides a simple section displaying spotlights.
+
+![gallery](docs/img/spotlights.png "Spotlights")
 
 ## Requirements
 
