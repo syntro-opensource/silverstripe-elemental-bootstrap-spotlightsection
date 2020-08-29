@@ -1,8 +1,10 @@
 <?php
+
 namespace Syntro\SilverStripeElementalBootstrapSpotlightSection\Model;
 
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\TextareaField;
+use SilverStripe\Forms\FieldList;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use gorriecoe\Link\Models\Link;
 use gorriecoe\LinkField\LinkField;
@@ -122,5 +124,4 @@ class Spotlight extends BaseItem
 
         return parent::getCMSFields();
     }
-
 }

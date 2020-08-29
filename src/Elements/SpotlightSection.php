@@ -13,7 +13,6 @@ use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 use Syntro\SilverStripeElementalBaseitems\Elements\BootstrapSectionBaseElement;
 use Syntro\SilverStripeElementalBootstrapSpotlightSection\Model\Spotlight;
 
-
 /**
  *  Bootstrap based Spotlight section
  *
@@ -131,7 +130,6 @@ class SpotlightSection extends BootstrapSectionBaseElement
 
                 $fields->addFieldToTab('Root.Main', $spotlights);
             }
-
         });
 
         return parent::getCMSFields();
@@ -163,6 +161,11 @@ class SpotlightSection extends BootstrapSectionBaseElement
         return $blockSchema;
     }
 
+    /**
+     * getType
+     *
+     * @return string
+     */
     public function getType()
     {
         return _t(__CLASS__ . '.BlockType', 'Spotlight Section');
