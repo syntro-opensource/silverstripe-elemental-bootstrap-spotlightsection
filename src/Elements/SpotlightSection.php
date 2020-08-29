@@ -64,16 +64,9 @@ class SpotlightSection extends BootstrapSectionBaseElement
      * @config
      * @var array
      */
-    private static $background_colors = [
-        'default' => 'Default',
-        'light' => 'Lightgrey',
-        'dark' => 'Dark',
-    ];
+    private static $background_colors = [];
 
-    private static $text_colors = [
-        'default' => 'Default',
-        'white' => 'White'
-    ];
+    private static $text_colors = [];
 
     /**
      * Color mapping from background color. This is mainly intended
@@ -83,10 +76,7 @@ class SpotlightSection extends BootstrapSectionBaseElement
      * @config
      * @var array
      */
-    private static $text_colors_by_background = [
-        'light' => 'default',
-        'dark' => 'light',
-    ];
+    private static $text_colors_by_background = [];
 
     private static $db = [
         'Content' => 'Text',
