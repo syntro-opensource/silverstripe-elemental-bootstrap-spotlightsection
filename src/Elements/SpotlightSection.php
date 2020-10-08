@@ -10,7 +10,7 @@ use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldAddExistingAutocompleter;
 use SilverStripe\Forms\GridField\GridFieldDeleteAction;
 use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
-use Syntro\SilverStripeElementalBaseitems\Elements\BootstrapSectionBaseElement;
+use DNADesign\Elemental\Models\BaseElement;
 use Syntro\SilverStripeElementalBootstrapSpotlightSection\Model\Spotlight;
 
 /**
@@ -18,7 +18,7 @@ use Syntro\SilverStripeElementalBootstrapSpotlightSection\Model\Spotlight;
  *
  * @author Matthias Leutenegger <hello@syntro.ch>
  */
-class SpotlightSection extends BootstrapSectionBaseElement
+class SpotlightSection extends BaseElement
 {
 
     private static $icon = 'elemental-icon-spotlight';
