@@ -28,7 +28,7 @@ class SpotlightSection extends BaseElement
      * @config
      * @var string
      */
-    private static $block_name = 'testimonial-section';
+    private static $block_name = 'spotlight-section';
 
     /**
      * @var bool
