@@ -1,6 +1,6 @@
 # SilverStripe elemental bootstrap spotlight section
 
-[![Build Status](https://travis-ci.com/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection.svg?branch=master)](https://travis-ci.com/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection)
+![🎭 Tests](https://github.com/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection/workflows/%F0%9F%8E%AD%20Tests/badge.svg)
 [![phpstan](https://img.shields.io/badge/PHPStan-enabled-success)](https://github.com/phpstan/phpstan)
 [![codecov](https://codecov.io/gh/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection/branch/master/graph/badge.svg)](https://codecov.io/gh/syntro-opensource/silverstripe-elemental-bootstrap-spotlightsection)
 [![composer](https://img.shields.io/packagist/dt/syntro/silverstripe-elemental-bootstrap-spotlightsection?color=success&logo=composer)](https://packagist.org/packages/syntro/silverstripe-elemental-bootstrap-spotlightsection)
