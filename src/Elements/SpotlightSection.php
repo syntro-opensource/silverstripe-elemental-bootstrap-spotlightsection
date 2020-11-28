@@ -85,12 +85,6 @@ class SpotlightSection extends BaseElement
         'Spotlights' => Spotlight::class
     ];
 
-    /**
-     * @var array
-     */
-    private static $owns = [
-        'Spotlights'
-    ];
 
     /**
      * fieldLabels - apply labels
